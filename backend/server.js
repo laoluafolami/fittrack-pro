@@ -14,7 +14,10 @@ const app = express();
 
 app.use(helmet());
 app.use(cors({
-  origin: ['https://fittrack-app.azurewebsites.net', 'http://localhost:3000'],
+  origin: [
+    'https://fittrack-app-2025-ghhtgdhka2fzchdt.centralus-01.azurewebsites.net',
+    'http://localhost:3000'
+  ],
   credentials: true
 }));
 app.use(morgan('dev'));
