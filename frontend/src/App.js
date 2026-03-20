@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
 // ─── CONSTANTS ────────────────────────────────────────────────────────────────
-const API = "http://localhost:5000/api";
+const API = "https://fittrack-api-2025-ghhtgdhka2fzchdt.centralus-01.azurewebsites.net/api";
 
 const GYM_IMAGES = {
   hero: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1800&q=90",
